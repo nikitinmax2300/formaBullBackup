@@ -1,0 +1,61 @@
+////////// LANDING ////////////
+.landing {
+  background-color: #F3F4F6;
+  display: flex;
+  height: 130vh;
+  flex-direction: column;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.side-bars-and-canvas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80vh;
+  width: 100%;
+  margin-top: 80px;
+  flex-wrap: nowrap;
+}
+
+////////// NavBar ////////////
+.navbar {
+  display: flex;
+  flex-direction:row;
+  border: 1px solid black;
+  padding: 5px;
+}
+.navbar div {
+  margin-right: 30px;
+}
+
+////////// LeftSideBar ////////////
+.left-side-bar {
+  flex-grow: 1;
+  border: 1px solid black;
+  max-width: 25%;
+  border-radius: 10px;
+}
+
+////////// MainCanvas////////////
+.main-canvas {
+  flex-grow: 3;
+  border: 1px solid black;
+  width: 50%;
+  height: 100%;
+  margin-top:80px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+////////// RightSideBar ////////////
+.right-side-bar {
+  flex-grow: 1;
+  border: 1px solid black;
+  width: 25%;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+//////OUTPUT////////
+.output {
+  font-family: 'Monaco';
+}
